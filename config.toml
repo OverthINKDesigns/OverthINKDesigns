@@ -1,4 +1,4 @@
-baseURL = "https://OverthINKDesigns.github.io"
+baseURL = "https://overthinkdesigns.github.io"
 title = "Overthinking? We've got you covered."
 languageCode = "en"
 theme = "gohugo-theme-ananke"
