@@ -12,26 +12,32 @@ body {
     color: black;
 }
 
-/* Header styles */
+/* Set header height and style */
 header {
-    background-color: black;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space out logo and navigation */
+    height: 80px; /* Set the height of the header */
+    background-color: black; /* Set the background color */
+    padding: 0 20px; /* Add some padding */
 }
 
+/* Style the logo to match the height of the header */
 header .logo img {
-    height: 50px; /* Adjust as needed */
+    height: 100%; /* Make the image height fill the header */
+    width: auto; /* Maintain the aspect ratio of the logo */
 }
 
+/* Style the navigation */
 nav ul {
-    list-style: none;
     display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
