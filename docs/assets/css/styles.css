@@ -12,20 +12,20 @@ body {
     color: black;
 }
 
-/* Set header height and style */
+/* Set the header height */
 header {
     display: flex;
-    align-items: center; /* Vertically center the items */
+    align-items: center;  /* Vertically center the items */
     justify-content: space-between; /* Space out logo and navigation */
-    height: 80px; /* Set the height of the header */
-    background-color: black; /* Set the background color */
-    padding: 0 20px; /* Add some padding */
+    height: 100px;  /* Set the height of the header (increase if needed) */
+    background-color: black;  /* Set the background color */
+    padding: 0 20px;  /* Add some padding */
 }
 
-/* Style the logo to match the height of the header */
+/* Adjust logo size */
 header .logo img {
-    height: 100%; /* Make the image height fill the header */
-    width: auto; /* Maintain the aspect ratio of the logo */
+    height: 80%;  /* Make the logo scale to 80% of the header height */
+    width: auto;  /* Maintain aspect ratio */
 }
 
 /* Style the navigation */
